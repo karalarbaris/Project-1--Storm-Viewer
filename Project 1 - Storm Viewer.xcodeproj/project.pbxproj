@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		15CEBE94264FAFB5008F105F /* Project 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CEBE94264FAFB5008F105F /* Project 1 - Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 1 - Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CEBE97264FAFB5008F105F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15CEBE99264FAFB5008F105F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		15CEBE9B264FAFB5008F105F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		15CEBE8B264FAFB5008F105F = {
 			isa = PBXGroup;
 			children = (
-				15CEBE96264FAFB5008F105F /* Project 1 */,
+				15CEBE96264FAFB5008F105F /* Project 1 - Storm Viewer */,
 				15CEBE95264FAFB5008F105F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		15CEBE95264FAFB5008F105F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15CEBE94264FAFB5008F105F /* Project 1.app */,
+				15CEBE94264FAFB5008F105F /* Project 1 - Storm Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15CEBE96264FAFB5008F105F /* Project 1 */ = {
+		15CEBE96264FAFB5008F105F /* Project 1 - Storm Viewer */ = {
 			isa = PBXGroup;
 			children = (
 				15CEBE97264FAFB5008F105F /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				15CEBEA5264FAFB6008F105F /* Info.plist */,
 				15CEBEAB264FB696008F105F /* Content */,
 			);
-			path = "Project 1";
+			path = "Project 1 - Storm Viewer";
 			sourceTree = "<group>";
 		};
 		15CEBEAB264FB696008F105F /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15CEBE93264FAFB5008F105F /* Project 1 */ = {
+		15CEBE93264FAFB5008F105F /* Project 1 - Storm Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15CEBEA8264FAFB6008F105F /* Build configuration list for PBXNativeTarget "Project 1" */;
+			buildConfigurationList = 15CEBEA8264FAFB6008F105F /* Build configuration list for PBXNativeTarget "Project 1 - Storm Viewer" */;
 			buildPhases = (
 				15CEBE90264FAFB5008F105F /* Sources */,
 				15CEBE91264FAFB5008F105F /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project 1";
+			name = "Project 1 - Storm Viewer";
 			productName = "Project 1";
-			productReference = 15CEBE94264FAFB5008F105F /* Project 1.app */;
+			productReference = 15CEBE94264FAFB5008F105F /* Project 1 - Storm Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15CEBE8F264FAFB5008F105F /* Build configuration list for PBXProject "Project 1" */;
+			buildConfigurationList = 15CEBE8F264FAFB5008F105F /* Build configuration list for PBXProject "Project 1 - Storm Viewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15CEBE93264FAFB5008F105F /* Project 1 */,
+				15CEBE93264FAFB5008F105F /* Project 1 - Storm Viewer */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +345,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baris.Project-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baris.Project-1-Storm-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baris.Project-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baris.Project-1-Storm-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -374,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15CEBE8F264FAFB5008F105F /* Build configuration list for PBXProject "Project 1" */ = {
+		15CEBE8F264FAFB5008F105F /* Build configuration list for PBXProject "Project 1 - Storm Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15CEBEA6264FAFB6008F105F /* Debug */,
@@ -383,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15CEBEA8264FAFB6008F105F /* Build configuration list for PBXNativeTarget "Project 1" */ = {
+		15CEBEA8264FAFB6008F105F /* Build configuration list for PBXNativeTarget "Project 1 - Storm Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15CEBEA9264FAFB6008F105F /* Debug */,
