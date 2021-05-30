@@ -29,8 +29,7 @@ class ViewController: UITableViewController {
         }
         
         
-        print(items)
-        print(pictures)
+        pictures.sort()
         
     }
 
@@ -40,14 +39,17 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
-        cell.textLabel?.text = pictures[indexPath.row]
         
+        cell.textLabel?.text = pictures[indexPath.row]
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(identifier: "Detail") as? DetailViewController {
             vc.seledtedImage = pictures[indexPath.row]
+            vc.selectedPictureNumber = indexPath.row
+            vc.totalPictures = pictures.count
+            
             navigationController?.pushViewController(vc, animated: true)
         }
     }
