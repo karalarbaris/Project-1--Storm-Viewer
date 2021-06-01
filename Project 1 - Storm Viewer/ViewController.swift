@@ -33,6 +33,15 @@ class ViewController: UITableViewController {
         
     }
 
+    @IBAction func recommendClicked(_ sender: UIBarButtonItem) {
+        let recommendText = "Hey man, you should check this app out!"
+    let vc = UIActivityViewController(activityItems: [recommendText], applicationActivities: [])
+        //Without this the app will crash on ipad
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true, completion: nil)
+    
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
     }
@@ -53,5 +62,6 @@ class ViewController: UITableViewController {
             navigationController?.pushViewController(vc, animated: true)
         }
     }
+    
 }
 

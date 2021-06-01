@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="575-Nm-4Mz">
             <objects>
-                <tableViewController id="YCi-ek-f4S" customClass="ViewController" customModule="Project_1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="YCi-ek-f4S" customClass="ViewController" customModule="Project_1___Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JbO-mE-i1U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,13 @@
                             <outlet property="delegate" destination="YCi-ek-f4S" id="UBb-bc-ayZ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="RQA-6t-W2y"/>
+                    <navigationItem key="navigationItem" id="RQA-6t-W2y">
+                        <barButtonItem key="rightBarButtonItem" title="Recommend" id="972-v4-ueE">
+                            <connections>
+                                <action selector="recommendClicked:" destination="YCi-ek-f4S" id="ftd-yh-ahp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v5K-FR-mSc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -49,7 +55,7 @@
         <!--Detail View Controller-->
         <scene sceneID="jI5-y1-4uj">
             <objects>
-                <viewController storyboardIdentifier="Detail" id="nPH-Kw-Afv" customClass="DetailViewController" customModule="Project_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail" id="nPH-Kw-Afv" customClass="DetailViewController" customModule="Project_1___Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vqJ-Lx-6XQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
